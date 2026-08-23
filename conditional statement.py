@@ -3,7 +3,7 @@
 
  # if" loop
 
-age = float(input("what is your age: "))
+age = float(input("what is your age:  "))
 
 if age >= 18 :
     print("you are adult" ) 
