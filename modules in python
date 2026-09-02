@@ -1,0 +1,17 @@
+#A module is simply a Python file (.py) containing code that you can reuse in another Python program.
+import math
+print(math.sqrt(4))
+
+
+
+# instead of 
+from math import sqrt,factorial
+print(sqrt(16))
+print (factorial(3))
+
+
+
+# you can give a module a shorter name
+import math as m 
+print(m.sqrt(25))
+
